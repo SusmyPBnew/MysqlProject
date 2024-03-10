@@ -35,7 +35,7 @@
           show databases;
   <li>After that we using that newly created DB using below command,</li>
            use Library;
-  <li>Then creating new tables(listed above) for storing the data needed for this project</li>
+  <li>Then creating new tables(listed above) for storing the data needed for this project,</li>
      Syntax: create table TABLENAME(columns1 datatype1,columns2 datatype2,.........);
  <li>Then insert values in that tables,</li>
   Syntax:insert into TABLENAME values(value1,value2,.......);
@@ -75,7 +75,7 @@
 
 ## Conclusion
 
-<p>Using the above queries we get the correct results from the DB.So These use of this Mysql queris help to sort out the expected data from this all details</p>
+<p>Using the above queries we get the correct results from the DB.So These use of this Mysql queris help to sort out the expected data from this details.</p>
 
 
 
