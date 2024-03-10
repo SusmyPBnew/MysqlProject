@@ -24,4 +24,5 @@
 </ol>
 
 
+###### *Note : PRIMARY KEY specify above, is a column in a relational database table that's distinctive for each record and A FOREIGN KEY is a field (or collection of fields) in one table, that refers to the PRIMARY KEY in another table.
 
