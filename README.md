@@ -26,3 +26,31 @@
 
 ###### *Note : PRIMARY KEY specify above, is a column in a relational database table that's distinctive for each record and A FOREIGN KEY is a field (or collection of fields) in one table, that refers to the PRIMARY KEY in another table.
 
+## Process follows this Project
+
+<ul>
+<li>First of all we creating a database using the following command,</li>
+          create database Library;
+  <li>Then we shows the current databases(not necessary)</li>
+          show databases;
+  <li>After that we using that newly created DB using below command,</li>
+           use Library;
+  <li>Then creating new tables(listed above) for storing the data needed for this project</li>
+     Syntax: create table TABLENAME(columns1 datatype1,columns2 datatype2,.........);
+ <li>Then insert values in that tables,</li>
+  Syntax:insert into TABLENAME values(value1,value2,.......);
+
+<li>After that we solve some queries for that different operations that done under library management system</li>
+</ul>
+
+## MySql queries for Fetching Particular Information
+
+<ol>
+<li>
+
+
+  
+</li>
+  
+</ol>
+
