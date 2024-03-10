@@ -46,11 +46,23 @@
 ## MySql queries for Fetching Particular Information
 
 <ol>
-<li>
-
-
-  
-</li>
+<li> Retrieve the book title, category, and rental price of all available books.</li>
+  select  book_title,category,rental_Price from books;
+<li> List the employee names and their respective salaries in descending order of salary.</li>
+<li> Retrieve the book titles and the corresponding customers who have issued those books.</li>
+<li> Display the total count of books in each category.</li>
+<li> Retrieve the employee names and their positions for the employees whose salaries are above Rs.50,000.</li>
+<li> List the customer names who registered before 2022-01-01 and have not issued any books yet.</li>
+<li> Display the branch numbers and the total count of employees in each branch.</li>
+<li> Display the names of customers who have issued books in the month of June 2023.</li>
+<li> Retrieve book_title from book table containing history.</li>
+<li> Retrieve the branch numbers along with the count of employees for branches having more than 5 employees</li>
   
 </ol>
+
+## Conclusion
+
+<p>Using the above queries we get the correct results from the DB.So These use of this Mysql queris help to sort out the expected data from this all details</p>
+
+
 
