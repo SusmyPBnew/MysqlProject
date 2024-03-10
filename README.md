@@ -7,20 +7,20 @@
 
   For writing queries we need to store the data in particular tables,which describes below,
 
-  ## Tables for Storing Library Management Info
+  ## Tables for Storing Library Management Data
 
 <ol>
-<li>Branch: Stores information about library branches including branch number, manager ID, address, and contact number.</li>
+<li>Branch: This table for storing no of library branches,that including fields like branch_no(<b>primary key</b>), manager_id,branch_address, and contact_no.</li>
 
-2)Employee: Contains details of library employees such as employee ID, name, position, salary, and the branch they belong to.
+<li>Employee: This table for storing employees details working under the these branches,that including fields like employee_id(<b>primary key</b>), name, position, salary, and the branch_no(<b>foreign key</b>).</li>
 
-3)Books: Holds data regarding books available in the library including ISBN, title, category, rental price, availability status, author, and publisher.
+<li>Books:  This table for storing books deatails that available in all libraries ,that including fields like ISBN(<b>primary key</b>), title, category, rental price,status(we need to set "yes" or "no", author, and publisher.</li>
 
-4)Customer: Stores customer information like customer ID, name, address, and registration date.
+<li>Customer: This table for storing customer deatails him/her buy a particular book from any library,that including fields like customer_id(<b>primary key</b>), name, address, and registration date.</li>
 
-5)IssueStatus: Records issued books by customers including issue ID, customer ID, book name, issue date, and ISBN.
+<li>IssueStatus: This table for storing issued books by customer details,that including fields like issue_id(<b>primary key</b>), customer_id(<b>foreign key</b>), book name, issue date, and ISBN(<b>foreign key</b>).</li>
 
-6)ReturnStatus: Tracks returned books including return ID, customer ID, book name, return date, and ISBN.
+<li>ReturnStatus: This table for storing retured books by customer details,that including fields like return_id(<b>primary key</b>), customer_id(<b>foreign key</b>), book name, return date, and ISBN(<b>foreign key</b>).</li>
 </ol>
 
 
