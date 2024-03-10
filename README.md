@@ -47,18 +47,31 @@
 
 <ol>
 <li> Retrieve the book title, category, and rental price of all available books.</li>
-  select  book_title,category,rental_Price from books;
-<li> List the employee names and their respective salaries in descending order of salary.</li>
+  This results for using select  command and return title, category, and rental price from BOOKS table.
+ <li> List the employee names and their respective salaries in descending order of salary.</li>
+    This results for using select command and return employee names and their respective salaries that salary in descending order from EMPLOYEE table.
 <li> Retrieve the book titles and the corresponding customers who have issued those books.</li>
+      This results for using select command and return titles and the corresponding customers by joining CUSTOMER and ISSUE table using join command.
 <li> Display the total count of books in each category.</li>
+        This results for using select command and return total count of books from BOOKS table using group by command.
 <li> Retrieve the employee names and their positions for the employees whose salaries are above Rs.50,000.</li>
+  This results for using select command and return employee names and their positions from EMPLOYEE table where salary > 50000.
 <li> List the customer names who registered before 2022-01-01 and have not issued any books yet.</li>
+        This results for using select command and return customer names by left joining CUSTOMER and ISSUE table where register date <  2022-01-01.
 <li> Display the branch numbers and the total count of employees in each branch.</li>
+           This results for using select command and return branch numbers and the total count of employees by joining EMPLOYEE and BRANCH table using group by command.
 <li> Display the names of customers who have issued books in the month of June 2023.</li>
+         This results for using select command and return names of customers by joining CUSTOMER and ISSUE table where issue date in month june and year is 2023.
 <li> Retrieve book_title from book table containing history.</li>
+       This results for using select command and return book_title from BOOK table where category is history.
+
 <li> Retrieve the branch numbers along with the count of employees for branches having more than 5 employees</li>
-  
+             This results for using select command and return  branch numbers along with the count of employees by joining EMPLOYEE and BRANCH table using group by command and having employee count is greater than 5.
+
 </ol>
+
+###### *Note : The above queries outputs are listed in LibraryManagementSystem.pdf.
+
 
 ## Conclusion
 
